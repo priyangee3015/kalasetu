@@ -1,0 +1,92 @@
+// Demonstration listings adapted from the original Kalasetu product and artisan data.
+export const sampleCrafts = [
+  {
+    id: 'handloom-weavers', title: 'Handloom Weavers', category: 'Handloom textiles', region: 'Gujarat',
+    description: 'Shuttle and loom textiles with lasting drape and pattern—ready for storytelling and fair listings.',
+    fullDescription: 'This collective works on traditional pit looms, blending jamdani-inspired motifs with contemporary colour palettes. Each piece is woven in small batches and finished by hand.',
+    material: 'Organic cotton & natural silk', priceLabel: '₹2,400 – ₹18,500', priceMin: 2400, priceMax: 18500,
+    artisanName: 'Meera Patel', artisanSpecialty: 'Jamdani & pit-loom weaving', artisanLocation: 'Ahmedabad, Gujarat',
+    artisanBio: 'Sample artisan profile from the original project data. Leads a women-led weaving cluster specialising in fine cotton sarees and yardage.',
+    image: '/images/handloom weavers.jpeg',
+  },
+  {
+    id: 'pottery-artisans', title: 'Pottery Artisans', category: 'Pottery & ceramics', region: 'Rajasthan',
+    description: 'Wheel-thrown and hand-built ceramics rooted in local clay, glazes, and kiln tradition.',
+    fullDescription: 'From serving bowls to decorative urns, each form is shaped on a wheel or coiled by hand, then fired and glazed using family recipes. Custom orders are part of this sample listing.',
+    material: 'Terracotta & lead-free glaze', priceLabel: '₹450 – ₹6,200', priceMin: 450, priceMax: 6200,
+    artisanName: 'Vikram Singh Rathore', artisanSpecialty: 'Wheel-thrown terracotta', artisanLocation: 'Jaipur, Rajasthan',
+    artisanBio: 'Sample artisan profile from the original project data. Family kiln known for serving ware, planters, and custom glaze matching.',
+    image: '/images/pottery artisans.jpeg',
+  },
+  {
+    id: 'metal-craft', title: 'Metal Craft', category: 'Metalwork', region: 'Uttar Pradesh',
+    description: 'Hammered brass and copper pieces for home, ritual, and gifting with heirloom character.',
+    fullDescription: 'Artisans use repoussé, engraving, and lac-turned techniques to create lamps, trays, and ceremonial vessels. Pieces are polished by hand and carry subtle hammer marks.',
+    material: 'Brass, copper & bronze', priceLabel: '₹1,100 – ₹22,000', priceMin: 1100, priceMax: 22000,
+    artisanName: 'Imran Qureshi', artisanSpecialty: 'Brass repoussé & engraving', artisanLocation: 'Moradabad, Uttar Pradesh',
+    artisanBio: 'Sample artisan profile from the original project data. Focuses on hammered brass trays, lamps, and ceremonial vessels.',
+    image: '/images/metal craft artisans.jpeg',
+  },
+  {
+    id: 'embroidery', title: 'Embroidery', category: 'Embroidery & needlework', region: 'Gujarat',
+    description: 'Fine needlework and surface detail on apparel, linen, and accessories.',
+    fullDescription: 'This sample studio specialises in mirror-work, satin stitch, and running patterns drawn from Kutch heritage. Motifs are charted before stitching to keep symmetry across large panels.',
+    material: 'Cotton base, silk & cotton thread', priceLabel: '₹800 – ₹14,500', priceMin: 800, priceMax: 14500,
+    artisanName: 'Asha Ben Desai', artisanSpecialty: 'Mirror-work & Kutch stitch', artisanLocation: 'Bhuj, Gujarat',
+    artisanBio: 'Sample artisan profile from the original project data. Creates bridal stoles and cushion panels with traditional mirror-work.',
+    image: '/images/embroidery artisans.jpeg',
+  },
+  {
+    id: 'carpet-weaving', title: 'Carpet Weaving', category: 'Weaving & home textiles', region: 'Uttar Pradesh',
+    description: 'Hand-knotted and woven floor art with rich colour and long-wearing construction.',
+    fullDescription: 'Knot density and yarn quality suit different spaces, from accent rugs to room-sized pieces. Natural dyes provide depth and age gracefully.',
+    material: 'Wool & vegetable-dyed yarn', priceLabel: '₹8,500 – ₹1,25,000', priceMin: 8500, priceMax: 125000,
+    artisanName: 'Rahim Khan', artisanSpecialty: 'Hand-knotted wool rugs', artisanLocation: 'Bhadohi, Uttar Pradesh',
+    artisanBio: 'Sample artisan profile from the original project data. Makes high knot-density rugs with natural dye options.',
+    image: '/images/carpet weavers.jpeg',
+  },
+  {
+    id: 'basket-weaving', title: 'Basket Weaving', category: 'Basketry & natural fibres', region: 'Assam',
+    description: 'Coiled and woven natural-fibre baskets for storage, décor, and daily use.',
+    fullDescription: 'Harvested fibres are split and woven into sturdy forms with reinforced rims. Designs range from market totes to lidded storage sets.',
+    material: 'Bamboo, cane & river grass', priceLabel: '₹350 – ₹4,800', priceMin: 350, priceMax: 4800,
+    artisanName: 'Lakhi Munda', artisanSpecialty: 'Bamboo & cane baskets', artisanLocation: 'Guwahati, Assam',
+    artisanBio: 'Sample artisan profile from the original project data. Produces market totes and lidded storage sets from natural fibres.',
+    image: '/images/basket weavers.jpeg',
+  },
+  {
+    id: 'block-print-craft', title: 'Block Print Craft', category: 'Block printing', region: 'Rajasthan',
+    description: 'Carved blocks, natural dyes, and repeat patterns on cloth and soft furnishings.',
+    fullDescription: 'Motifs are carved in teak blocks and registered by eye across metres of fabric. Natural indigo, madder, and turmeric baths create layered colour.',
+    material: 'Hand-carved wood blocks & cotton fabric', priceLabel: '₹600 – ₹9,500', priceMin: 600, priceMax: 9500,
+    artisanName: 'Priya Sharma', artisanSpecialty: 'Natural dye block print', artisanLocation: 'Jaipur, Rajasthan',
+    artisanBio: 'Sample artisan profile from the original project data. Works with indigo, madder yardage, and custom block carving.',
+    image: '/images/Block Print Craft Studios.webp',
+  },
+  {
+    id: 'table-runner', title: 'Table Runner', category: 'Handloom textiles', region: 'Gujarat',
+    description: 'Table linens with balanced motifs that elevate everyday dining settings.',
+    fullDescription: 'Woven on narrow looms for crisp edges, these runners feature border bands inspired by stepwell geometry. Standard lengths and custom sizing are available in the sample listing.',
+    material: 'Handloom cotton & linen blend', priceLabel: '₹1,200 – ₹3,800', priceMin: 1200, priceMax: 3800,
+    artisanName: 'Naina Desai', artisanSpecialty: 'Handloom table linens', artisanLocation: 'Surat, Gujarat',
+    artisanBio: 'Sample artisan profile from the original project data. Produces pre-washed runners with crisp borders.',
+    image: '/images/Table Runner.webp',
+  },
+  {
+    id: 'saree-weaving', title: 'Saree Weaving', category: 'Handloom textiles', region: 'Gujarat',
+    description: 'Handloom sarees blending drape and motif—ideal for catalogues and heritage retail.',
+    fullDescription: 'Each sample saree listing describes coordinated blouse-piece and pallu detailing. Warm wool blends suit cooler seasons while maintaining breathable structure.',
+    material: 'Wool-cotton blend & zari accent', priceLabel: '₹4,500 – ₹28,000', priceMin: 4500, priceMax: 28000,
+    artisanName: 'Kavita Solanki', artisanSpecialty: 'Wool-cotton sarees', artisanLocation: 'Bhuj, Gujarat',
+    artisanBio: 'Sample artisan profile from the original project data. Creates seasonal sarees with coordinated blouse pieces.',
+    image: '/images/handloom wollen saree.webp',
+  },
+]
+
+export const sampleOpportunities = [
+  { id: 'sample-opportunity-photo', title: 'Product photography for a new collection', service: 'Photography', requirements: 'Create a small set of natural-light product images and a simple shot list for a handloom collection.', budget: 8000, creatorName: 'Sample artisan collective', createdAt: '2026-01-15T10:00:00.000Z', status: 'Open', isSample: true },
+  { id: 'sample-opportunity-brand', title: 'Visual identity refresh', service: 'Graphic design', requirements: 'Help shape a clear visual direction and two reusable social templates for a craft studio.', budget: null, creatorName: 'Sample artisan collective', createdAt: '2026-02-02T10:00:00.000Z', status: 'Open', isSample: true },
+  { id: 'sample-opportunity-web', title: 'Simple catalogue website', service: 'Web development', requirements: 'Plan a responsive, accessible catalogue page for a small artisan group. No payment integration required.', budget: 18000, creatorName: 'Sample artisan collective', createdAt: '2026-03-10T10:00:00.000Z', status: 'Open', isSample: true },
+]
+
+export const serviceCategories = ['Graphic design', 'Photography', 'Web development', 'Content writing', 'Social media management']
